@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/root/alx-system_engineering -devops/0-currect_working_directory"
+echo "$PWD"
