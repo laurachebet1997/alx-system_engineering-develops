@@ -1,2 +1,2 @@
-i#!/bin/bash
-if [chown guillaume hello]; then chown betty hello
+#!/bin/bash
+if [chown guillaume hello]= then chown betty hello
