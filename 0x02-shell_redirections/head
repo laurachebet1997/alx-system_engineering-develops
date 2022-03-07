@@ -1,0 +1,23 @@
+total 80
+-rw-r--r-- 1 root root   0 Mar  7 10:30 head
+-rwxr--r-- 1 root root  21 Mar  7 10:27 10-no_more_js
+-rwxr--r-- 1 root root  72 Mar  7 10:23 7-file
+-rwxr--r-- 1 root root  40 Mar  7 10:18 0-hello_world
+-rw-r--r-- 1 root root  13 Mar  7 08:45 2
+-rw-r--r-- 1 root root  13 Mar  7 08:18 22-users_and_homes
+-rwxr--r-- 1 root root  36 Mar  7 05:07 17-hidethisword
+-rwxr--r-- 1 root root  39 Mar  7 05:05 16-whatsnext
+-rwxr--r-- 1 root root  36 Mar  7 04:56 15-countthatword
+-rwxr--r-- 1 root root  34 Mar  7 04:47 14-findthatword
+-rwxr--r-- 1 root root  28 Mar  7 04:38 12-newest_files
+-rwxr--r-- 1 root root  20 Mar  7 04:26 11-directories
+-rwxr--r-- 1 root root  37 Mar  7 03:50 9-duplicate_last_line
+-rwxr--r-- 1 root root  36 Mar  7 03:30 6-third_line
+-rw-r--r-- 1 root root   0 Mar  7 03:17 0-hello
+-rwxr--r-- 1 root root  35 Mar  7 01:20 8-cwd_state
+-rw-r--r-- 1 root root 812 Mar  7 00:37 iacta
+-rwxr--r-- 1 root root  29 Mar  7 00:13 5-firstlines
+-rwxr--r-- 1 root root  29 Mar  7 00:09 4-lastlines
+-rwxr--r-- 1 root root  39 Mar  7 00:07 3-twofiles
+-rwxr--r-- 1 root root  28 Mar  7 00:04 2-hellofile
+-rwxr--r-- 1 root root  28 Mar  7 00:00 1-confused_smiley
