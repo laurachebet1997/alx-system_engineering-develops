@@ -1,18 +1,9 @@
 #!/usr/bin/env bash
-# Install nginx and start it
-apt-get -y install nginx
+#install ngix and put holberton inside
+redir="\\\tlocation /redirect_me {\n\t\t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
 
-# Firewall setting: Allow Nginx to serve on HTTP
-ufw allow 'Nginx HTTP'
-
-# Override the default index file served as home page
-echo "Holberton School" >> /var/www/html/index.html
-
-#Give the user  ownership to website files
-sudo chown -R $USER:$USER /var/www/html
-sudo chmod -R 755 /var/www
-
-# Redirect to /redirect_me to a youtube video
-sed -i '37i\rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
-
-service nginx start
+sudo apt-get update
+sudo apt-get install nginx -y
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sudo sed -i "30i $redir" /etc/nginx/sites-available/default
+sudo service nginx start
